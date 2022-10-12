@@ -1,5 +1,5 @@
 # ECEP
-## Embedded System Course by Emertex
+## Embedded System Course by Emertxe
 
 <details><summary> Module 1 </summary>
 >>
