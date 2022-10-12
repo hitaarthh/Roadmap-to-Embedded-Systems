@@ -376,4 +376,57 @@ Here,
 
 `SEEK_CUR` − Current position of file pointer.
 
+`rewind()` is used to set the position of file to the beginning of given stream. It does not return any value.Syntax of the function is:
+```C
+void rewind(FILE *ptr);
+```
+The only parameter of the function is the file pointer.
+
 <a href="https://www.geeksforgeeks.org/basics-file-handling-c/">File Handling In C</a>
+
+
+# __*Preprocessor Directives*__
+
+The preprocessor will process directives that are inserted into the C source code. These directives allow additional actions to be taken on the C source code before it is compiled into object code. Directives are `not part of the C language` itself. Preprocessor directives begin with a pound `(#)` symbol and may have several arguments.
+
+</br>
+
+| Directives | Specification     | Examples     |
+| ------------- | ------------- | -------- |
+| <a href= "https://www.javatpoint.com/c-preprocessor-include">#include</a> | Include another C file into the current file at the location of the #include statement prior to compiling the source code.| #include <math.h>  |
+| <a href= "https://www.javatpoint.com/c-preprocessor-define">#define</a> |Define a macro which can be used as a constant throughout the source code.| #define Length 50  |
+| <a href = "https://www.techonthenet.com/c_language/directives/undef.php">#undef</a>|Clear a macro which was previously defined.|#undef Length|
+| <a href = "https://www.techonthenet.com/c_language/directives/if.php">#if</a>| Conditional expresssion which can be used to include source code for compilation.|#if Length > 50|
+| <a href = "https://www.techonthenet.com/c_language/directives/ifdef.php">#ifdef</a>|	Allows the inclusion of source code if the provided macro identifier has been defined. Equivalent to #if defined(identifier).|#ifdef SOLARIS|
+| <a href = "https://www.techonthenet.com/c_language/directives/ifndef.php">#ifndef</a>|Allows the inclusion of source code if the provided macro identifier has not been defined.|#ifndef WINDOWS|
+| <a href = "https://gcc.gnu.org/onlinedocs/cpp/Elif.html">#elif</a>| Provides an alternate inclusion of source code when used with the #if, #ifdef, or #ifndef directives and the #elif condition evaluates to true.| 	#elif YEARS_OLD > 10|
+| <a href = "https://www.javatpoint.com/c-preprocessor-else">#else</a>|Allows the inclusion of source code if the preceeding #if, #ifdef, or #ifndef directive expression evaluates to false.|#else|
+| <a href = "https://www.educative.io/answers/what-is-the--sharpendif-directive-in-c">#endif</a>|Signals the end of a #if, #ifdef or #ifndef condition.| 	#endif|
+| <a href = "https://gcc.gnu.org/onlinedocs/gcc-4.6.0/gcc/Warning-Options.html">#warning</a>|Report a warning message and continue preprocessing.| 	#warning Non-critical error found|
+| <a href = "https://www.techonthenet.com/c_language/directives/error.php">#error</a>| Report error and stop preprocessing.| #error Windows is an unsupported platform|
+
+</br>
+
+# __*Recursion*__
+
+Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function, then it is called a recursive call of the function. Recursive functions are very useful to solve many mathematical problems, such as calculating the factorial of a number, generating Fibonacci series, etc.
+Here is a basic Factorial program done using recursion.
+
+```C
+#include <stdio.h>
+
+int factorial(int i) {
+
+   if(i <= 1) {
+      return 1;
+   }
+   return i * factorial(i - 1);
+}
+
+int  main() {
+   int i = 5;
+   printf("Factorial of %d is %d\n", i, factorial(i));
+   return 0;
+}
+
+<a href = "https://www.w3schools.com/c/c_functions_recursion.php">Recursion</a>
