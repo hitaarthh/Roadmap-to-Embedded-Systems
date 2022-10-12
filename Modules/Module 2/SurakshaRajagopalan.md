@@ -428,5 +428,6 @@ int  main() {
    printf("Factorial of %d is %d\n", i, factorial(i));
    return 0;
 }
+```
 
 <a href = "https://www.w3schools.com/c/c_functions_recursion.php">Recursion</a>
