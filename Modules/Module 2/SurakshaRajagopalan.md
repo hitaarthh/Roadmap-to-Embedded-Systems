@@ -21,7 +21,7 @@ Though a problem can be solved in numerous ways a proper algorithm is required. 
 </div>
 </br>
 
-<a href = "https://www.geeksforgeeks.org/how-to-use-algorithms-to-solve-problems/">More about Programs and Algorithm</a>
+## <a href = "https://www.geeksforgeeks.org/how-to-use-algorithms-to-solve-problems/">More about Programs and Algorithm</a>
 
 # __*Basics of C*__
 ## Operators
@@ -92,9 +92,11 @@ printf("%d\n%d\n%d", a^b, a|b, a&b);
 </div>
 </br>
 
-<a href = "https://www.tutorialspoint.com/cprogramming/c_operators.htm">Operators link1</a>
+## <a href = "https://www.tutorialspoint.com/cprogramming/c_operators.htm">Operators link1</a>
 
-<a href = "https://www.geeksforgeeks.org/operators-c-c/">Operators link2</a>
+## <a href = "https://www.geeksforgeeks.org/operators-c-c/">Operators link2</a>
+
+</br>
 
 ## Conditionals
 
@@ -136,7 +138,7 @@ Switch (expression)
 }
 ```
 
-<a href = "https://www.geeksforgeeks.org/decision-making-c-cpp/">Conditionals</a>
+## <a href = "https://www.geeksforgeeks.org/decision-making-c-cpp/">Conditionals</a>
 
 ## Arrays
 
@@ -157,7 +159,7 @@ type name[size1][size2]...[sizen];
 
 Arrays can be accessed using loops. An array is a contiguous piece of memory that holds enough space for a number of items of a certain type. For instance, integers are 4 bytes, and so an integer array with 4 elements would be 16 bytes long. Since arrays are `not mutable`. To resize and array, you would have to make a new array of the desired size and copy the memory from the old array to the new array.
 
-<a href = "https://www.w3schools.com/c/c_arrays.php">Arrays</a>
+## <a href = "https://www.w3schools.com/c/c_arrays.php">Arrays</a>
 
 ## Pointers
 A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location. Like any variable or constant, you must declare a pointer before using it to store any variable address.
@@ -209,7 +211,7 @@ struct Nursery {
 } nursery;  
 ```
 
-<a href = "https://www.geeksforgeeks.org/structures-c/">Structures</a>
+## <a href = "https://www.geeksforgeeks.org/structures-c/">Structures</a>
 
 # __*Unions*__ 
 
@@ -233,7 +235,7 @@ union Data {
 } data;  
 ```
 
-<a href = "https://www.geeksforgeeks.org/union-c/">Unions</a>
+## <a href = "https://www.geeksforgeeks.org/union-c/">Unions</a>
 
 # __*Functions*__
 
@@ -247,7 +249,7 @@ The printf() is a standard library function to send formatted output to the scre
 Hence, to use the printf()function, we need to include the stdio.h header file using `#include <stdio.h>`.
 The sqrt() function calculates the square root of a number. The function is defined in the `math.h` header file.
 
-<a href = "https://www.programiz.com/c-programming/library-function">Standard Libraries In C</a>
+## <a href = "https://www.programiz.com/c-programming/library-function">Standard Libraries In C</a>
 
 2. User defined library
 
@@ -268,7 +270,7 @@ void <function name>(<data type> <variable>){
 
 The void keyword is used when the function is defined if the function has no value to return, while if the function is returning an integer value then int keyword is used when the function is used, if a string is returned then str is used.
 
-<a href = "https://www.programiz.com/c-programming/c-user-defined-functions">User Defined functions in C</a>
+## <a href = "https://www.programiz.com/c-programming/c-user-defined-functions">User Defined functions in C</a>
 
 
 # __*Files*__
@@ -382,7 +384,7 @@ void rewind(FILE *ptr);
 ```
 The only parameter of the function is the file pointer.
 
-<a href="https://www.geeksforgeeks.org/basics-file-handling-c/">File Handling In C</a>
+## <a href="https://www.geeksforgeeks.org/basics-file-handling-c/">File Handling In C</a>
 
 
 # __*Preprocessor Directives*__
@@ -430,4 +432,84 @@ int  main() {
 }
 ```
 
-<a href = "https://www.w3schools.com/c/c_functions_recursion.php">Recursion</a>
+## <a href = "https://www.w3schools.com/c/c_functions_recursion.php">Recursion</a>
+
+# __*Project environment*__
+
+Project environment represents a connection, where the design is reused. It impacts the design and is, thus, conditioned. Such an commerce is handed by multitudinous factors as functional, physical, ecological, social, artistic, profitable, cerebral, fiscal, organizational etc. The terrain not only formulates the design but also estimates it. The design terrain analysis is held at the morning of the design.
+
+# __*Makefiles*__
+
+A makefile is a tool for organising or streamlining compilation-related code. Makefile is a collection of commands (similar to terminal commands) that may be used to create and delete object files. We can construct many targets to compile and remove object, binary files in a single make file. Using Makefile, you can compile your project (software) as many times as you want.
+
+The make command allows you to manage large programs or groups of programs. As you begin to write large programs, you notice that re-compiling large programs takes longer time than re-compiling short programs. Moreover, you notice that you usually only work on a small section of the program ( such as a single function ), and much of the remaining program is unchanged.
+
+The make program allows you to use macros, which are similar to variables. Macros are defined in a Makefile as = pairs. An example has been shown below −
+```bash
+MACROS  = -me
+PSROFF  = groff -Tps
+DITROFF = groff -Tdvi
+CFLAGS  = -O -systype bsd43
+LIBS    = "-lncurses -lm -lsdl"
+MYFACE  = ":*)"
+```
+
+## <a href = "https://www.includehelp.com/c-programming-questions/what-is-makefile.aspx">Makefiles</a>
+
+# __*Libraries*__
+
+## *Standard Libraries:*
+C Standard library functions or simply C Library functions are inbuilt functions in C programming.
+
+The prototype and data definitions of these functions are present in their respective header files. To use these functions we need to include the header file in our program. 
+
+<div align = "center">
+<img src = "https://imgs.search.brave.com/cNJYgX-B09_u0L9rbSxYdyEoZVaDOAC7JFENS3DmDKo/rs:fit:569:571:1/g:ce/aHR0cHM6Ly9xcGgu/ZnMucXVvcmFjZG4u/bmV0L21haW4tcWlt/Zy01NzIyYzFkMzU1/NGVjODNjNjA0YTIz/MGZjODEyYTVjMQ" width = 350>
+</div>
+
+## *Making Own Libraries:*
+If you have a bunch of files that contain just functions, you can turn these source files into libraries that can be used statically or dynamically by programs. This is good for program modularity, and code re-use. Write Once, Use Many. A library is basically just an archive of object files.
+
+### Static Library Setup 
+First thing you must do is create your C source files containing any functions that will be used. Your library can contain multiple object files. After creating the C source files, compile the files into object files. To create a library:
+
+```shell
+ar rcs libmylib.a objfile1.o objfile2.o objfile3.o
+```
+
+Remember to prototype your library function calls so that you do not get implicit declaration errors.
+When linking your program to the libraries, make sure you specify where the library can be found:
+
+```shell
+gcc -o foo foo.o -L. -lmylib
+```
+
+Since programs that use static libraries already have the library code compiled into the program, it can run on its own. Shared libraries dynamically access libraries at run-time thus the program needs to know where the shared library is stored. What's the advantage of creating executables using Dynamic Libraries? The executable is much smaller than with static libraries. If it is a standard library that can be installed, there is no need to compile it into the executable at compile time! The key to making your program work with dynamic libraries is through the LD_LIBRARY_PATH enviornment variable. To display this variable, at a shell:
+```shell
+echo $LD_LIBRARY_PATH
+```
+Will display this variable if it is already defined. If it isn't, you can create a wrapper script for your program to set this variable at run-time. Depending on your shell, simply use setenv (tcsh, csh) or export (bash, sh, etc) commands. If you already have LD_LIBRARY_PATH defined, make sure you append to the variable. For example:
+```shell
+setenv LD_LIBRARY_PATH /path/to/library:${LD_LIBRARY_PATH}
+```
+would be the command you would use if you had tcsh/csh and already had an existing LD_LIBRARY_PATH. An example with bash shells:
+```shell
+export LD_LIBRARY_PATH=/path/to/library:${LD_LIBRARY_PATH}
+```
+If you have administrative rights to your computer, you can install the particular library to the /usr/local/lib directory if it makes sense and permanently add an LD_LIBRARY_PATH into your .tcshrc, .cshrc, .bashrc, etc. file.
+
+
+## <a href = "https://www.cs.dartmouth.edu/~campbell/cs50/buildlib.html">Libraries</a>
+
+# __*Dry Test*__
+
+A dry run is a test or check performed on a computer, hardware, or electrical equipment. This test is run to test the performance or stability of a particular product before it is made available.
+
+Dry run techniques where you step through a program listing away from a computer are very powerful pedagogically as a way to teach programming as well as other computational topics (eg Turing Machines, algorithms, etc).
+
+Two main approaches are
+
+- role play the execution of aspects of a program
+- draw dry run tables, showing the changing values of tables with a row for each line executed by the program 
+
+## <a href = "https://cpmadeeasy.blogspot.com/2013/03/dry-run.html">Dry Test</a>
